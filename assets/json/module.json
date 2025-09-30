@@ -1,0 +1,38 @@
+{
+	"ateb": {
+		"title": "ateb",
+		"description": "重置前的ateb功能整合画面",
+		"link": "http://pc.rtots.top:10001/ateb",
+		"tags": ["scanner", "print", "GPIO", "serial"]
+	},
+	"atebs": {
+		"title": "atebs",
+		"description": "重置前的ateb串口和GPIO测试画面",
+		"link": "http://pc.rtots.top:10001/atebs",
+		"tags": ["GPIO", "serial", "deviceSetting"]
+	},
+	"serialport": {
+		"title": "serial Port",
+		"description": "串口测试画面",
+		"id": "serial",
+		"tags": ["serial"]
+	},
+	"labelComparison": {
+		"title": "label Comparison",
+		"description": "标签比较",
+		"id": "labelComparison",
+		"tags": ["serial"]
+	},
+	"serialPortZPL": {
+		"title": "serialPort ZPL",
+		"description": "读取文本信息，通过串口发送至打印机",
+		"id": "serialPortZPL",
+		"tags": ["serial"]
+	},
+	"Jigsaw": {
+		"title": "AtebJs Jigsaw",
+		"description": "预期目标是一个可以任意添加和摆放Atebjs现有功能的画面",
+		"id": "Jigsaw",
+		"tags": ["scanner", "print", "GPIO", "serial", "deviceSetting", "RFID", "USB", "message"]
+	}
+}

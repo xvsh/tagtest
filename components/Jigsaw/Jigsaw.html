@@ -1,0 +1,36 @@
+<div class="Jigsaw">
+	<link rel="stylesheet" href="./components/Jigsaw/Jigsaw.css" />
+	<div class="Jigsaw-box">
+		<div class="menu">
+			<div class="card">
+				<div class="card-header bg-info">
+					<div class="btn btn-light btn-sm">组件列表</div>
+				</div>
+				<div class="card-body">
+					<div class="Jigsaw-skeleton">
+						<button class="btn btn-outline-info" Jigsaw-cell="scanner">scanner</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="print">print</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="GPIO">GPIO</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="serial">serial</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="deviceSetting">deviceSetting</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="RFID">RFID</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="USB">USB</button>
+						<button class="btn btn-outline-info" Jigsaw-cell="message">message</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-box">
+			<div class="card">
+				<div class="card-header bg-info">
+					<button class="btn btn-light btn-sm">组装区</button>
+					<button class="btn btn-light btn-sm" onclick="runAteb(this)">运行</button>
+				</div>
+				<div class="card-body">
+					<div class="Jigsaw-skeleton"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./components/Jigsaw/Jigsaw.js"></script>
+</div>

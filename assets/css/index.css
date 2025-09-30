@@ -1,0 +1,35 @@
+.card-box,
+.version_box {
+	height: calc(100vh - 95px);
+	overflow-y: scroll;
+}
+
+.card-box::-webkit-scrollbar,
+.version_box::-webkit-scrollbar {
+	display: none;
+}
+
+.item_hide {
+	display: none;
+}
+
+dd {
+	padding-left: 2em;
+}
+
+.home_item {
+	margin: 6px;
+}
+
+.new_tag::after {
+	content: 'new';
+	color: red;
+	margin-left: 6px;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 3px 3px 5px gold;
+}
+
+.badge {
+	margin: 4px 6px;
+}

@@ -1,0 +1,112 @@
+[{
+	"title": "Scanner",
+	"description": "扫描模块（适用于 PDA 设备）",
+	"method": [{
+		"title": "scannerData",
+		"description": "信息接收接口"
+	}]
+}, {
+	"title": "Print",
+	"description": "蓝牙打印机模块 (适用于 PDA 设备)",
+	"method": [{
+		"title": "printData",
+		"description": "数据传输接口"
+	}]
+}, {
+	"title": "GPIO",
+	"description": "输入输出模块 (适用于 SDCT 设备)",
+	"method": [{
+		"title": "inputStatus",
+		"description": "信息接收接口"
+	}, {
+		"title": "setOutput",
+		"description": "数据传输接口"
+	}, {
+		"title": "SRNDFI044",
+		"description": "针对SRNDFI044设备特制的GPIO接口，包含同样的功能，另设有初始化参数"
+	}]
+}, {
+	"title": "SerialPort",
+	"description": "串口模块 (适用于 SDCT 设备)",
+	"method": [{
+		"title": "openPort",
+		"description": "打开串口"
+	}, {
+		"title": "serialPortData",
+		"description": "信息接收接口"
+	}, {
+		"title": "transportData",
+		"description": "数据传输接口"
+	}, {
+		"title": "closePort",
+		"description": "关闭串口"
+	}, {
+		"title": "endSymbol",
+		"description": "串口数据的结束符"
+	}, {
+		"title": "radix",
+		"description": "接收数据的进制转换",
+		"version": "3.4"
+	}, {
+		"title": "getSerialList",
+		"description": "获取当前可用的串口列表",
+		"version": "3.5"
+	}, {
+		"title": "refreshSerialList",
+		"description": "刷新串口列表",
+		"version": "3.5"
+	}]
+}, {
+	"title": "DeviceSetting",
+	"description": "设备设置 (适用于 SDCT 设备)",
+	"method": [{
+		"title": "openSettings",
+		"description": "调出设备的设定画面"
+	}, {
+		"title": "setVolume",
+		"description": "设置设备音量"
+	}]
+}, {
+	"title": "RFID",
+	"description": "控制 RFID 扫描设备(适用于 PDA 设备)",
+	"method": [{
+		"title": "open",
+		"description": "控制设备开始扫描 RFID 标签"
+	}, {
+		"title": "getData",
+		"description": "信息接收接口"
+	}, {
+		"title": "close",
+		"description": "控制设备结束扫描 RFID 标签"
+	}]
+}, {
+	"title": "USB",
+	"description": "通过设备携带的 USB 接口进行消息通信(适用于 SDCT 设备)",
+	"method": [{
+		"title": "zebra",
+		"description": "控制 zebra 的模块，包含设备搜索（findDevice）、获取设备信息（getMessage）、发送指令信息（send）"
+	}]
+}, {
+	"title": "OnMessage",
+	"description": "消息回馈接口（目前支持串口信息）",
+	"method": [{
+		"title": "onMessage",
+		"description": "接收控制ateb进行操作后的结果反馈"
+	}]
+}, {
+	"title": "LabelData",
+	"description": "OCR 标签数据获取（客制化 API）",
+	"method": [{
+		"title": "screenshot",
+		"description": "通过 API 控制设备截取 OCR 图片"
+	}, {
+		"title": "pushEcData",
+		"description": "通过 API 向设备发送 EC 单号及其相关厂商信息"
+	}, {
+		"title": "pushImg",
+		"description": "通过 API 向设备发送 OCR 图片"
+	}, {
+		"title": "getData",
+		"description": "接收设备读取到的标签信息"
+	}]
+}]

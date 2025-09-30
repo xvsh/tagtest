@@ -1,0 +1,65 @@
+{
+	"debug": {
+		"version": "debug",
+		"description": "AtebJS 是 SDCT 和 PDA 移动设备产品的 js 开发库，只有最新版本存在debug模式",
+		"file": "3.4.20241028",
+		"selected": false,
+		"select_list": ["Scanner", "Print", "GPIO", "SerialPort", "DeviceSetting", "RFID", "USB", "OnMessage"],
+		"new_list": ["SerialPort:radix"],
+		"hide_list": []
+	},
+	"3.5.20250915": {
+		"version": "V3.5.20250915",
+		"description": "AtebJS 是 SDCT 和 PDA 移动设备产品的 js 开发库",
+		"file": "3.5.20241120",
+		"selected": true,
+		"select_list": ["Scanner", "Print", "GPIO", "SerialPort", "DeviceSetting", "RFID", "USB", "OnMessage"],
+		"new_list": ["SerialPort:getSerialList", "SerialPort:refreshSerialList"],
+		"hide_list": ["SerialPort:radix"]
+	},
+	"3.5.20241121": {
+		"version": "V3.5.20241121",
+		"description": "AtebJS 是 SDCT 和 PDA 移动设备产品的 js 开发库",
+		"file": "3.5.20241120",
+		"selected": false,
+		"select_list": ["Scanner", "Print", "GPIO", "SerialPort", "DeviceSetting", "RFID", "USB", "OnMessage"],
+		"new_list": ["SerialPort:getSerialList", "SerialPort:refreshSerialList"],
+		"hide_list": ["SerialPort:radix"]
+	},
+	"3.4.20241023": {
+		"version": "V3.4.20241023",
+		"description": "AtebJS 是 SDCT 和 PDA 移动设备产品的 js 开发库",
+		"file": "3.4.20241028",
+		"selected": false,
+		"select_list": ["Scanner", "Print", "GPIO", "SerialPort", "DeviceSetting", "RFID", "USB", "OnMessage"],
+		"new_list": ["SerialPort:radix"],
+		"hide_list": []
+	},
+	"3.3.20240729": {
+		"version": "V3.3.20240729",
+		"description": "AtebJS 是 SDCT 和 PDA 移动设备产品的 js 开发库",
+		"file": "3.3.20240729",
+		"selected": false,
+		"select_list": ["Scanner", "Print", "GPIO", "SerialPort", "DeviceSetting", "RFID", "USB", "OnMessage"],
+		"new_list": ["OnMessage"],
+		"hide_list": []
+	},
+	"3.2.20240507": {
+		"version": "V3.2.20240507",
+		"description": "AtebJS 是 SDCT 和 PDA 移动设备产品的 js 开发库",
+		"file": "3.1.20230925",
+		"selected": false,
+		"select_list": ["Scanner", "Print", "GPIO", "SerialPort", "DeviceSetting", "RFID", "USB"],
+		"new_list": [],
+		"hide_list": []
+	},
+	"3.3α.20240812": {
+		"version": "V3.3α.20240812",
+		"description": "AtebJS 是针对于 OCR 项目的客制化 js 开发库",
+		"file": "3.3α.20240812",
+		"selected": false,
+		"select_list": ["SerialPort", "OnMessage", "LabelData"],
+		"new_list": ["LabelData"],
+		"hide_list": []
+	}
+}

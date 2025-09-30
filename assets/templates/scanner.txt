@@ -1,0 +1,7 @@
+<div Jigsaw-type="scanner">
+	<div class="input-group mb-3">
+	  <span class="input-group-text" Jigsaw-name>SCANNER</span>
+	  <input type="text" class="form-control" placeholder="SCANNER">
+		<button class="input-group-text btn btn-danger" onclick="removeSelf(this)" Jigsaw-delete="scanner">移除</button>
+	</div>
+</div>

@@ -1,0 +1,75 @@
+.Jigsaw-box>div {
+	display: inline-block;
+	height: calc(100vh - 95px);
+}
+
+.Jigsaw-box .menu {
+	width: 200px;
+}
+
+.Jigsaw-box .container-box {
+	width: calc(100vw - 265px);
+}
+
+.Jigsaw-box .Jigsaw-skeleton {
+	height: calc(100vh - 180px);
+	overflow-y: scroll;
+}
+
+.Jigsaw-box .Jigsaw-skeleton::-webkit-scrollbar {
+	display: none;
+}
+
+.menu button[Jigsaw-cell] {
+	margin: 3px 0;
+}
+
+/* serial css start*/
+.serial_item {
+	width: 520px;
+	max-height: 800px;
+	margin: 4px;
+	overflow-y: scroll;
+	display: inline-block;
+}
+
+/* 串口参数 */
+.card_item_params {
+	height: 200px;
+	overflow-y: scroll;
+}
+
+/* 串口消息 */
+.card_item_message {
+	min-height: 200px;
+	max-height: 450px;
+	overflow-y: scroll;
+}
+
+/* 串口传输 */
+.card_item_control {
+	height: 130px;
+}
+
+.card_item_control>div {
+	margin: 12px 0;
+}
+
+.card_item_control .btn {
+	color: white;
+	width: 60px;
+	margin-right: 8px;
+}
+
+.serial_item::-webkit-scrollbar,
+.card_item_params::-webkit-scrollbar,
+.card_item_message::-webkit-scrollbar {
+	display: none;
+}
+
+#serial_add {
+	margin-left: 12px;
+	vertical-align: top;
+}
+
+/* serial css end*/

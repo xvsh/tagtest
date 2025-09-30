@@ -1,0 +1,63 @@
+<div>
+	<link rel="stylesheet" href="./components/labelComparison/labelComparison.css">
+		<div class="grid-container">
+			<div class="grid-item standard-box">
+				<h1>Standard: </h1>
+				<div class="todo-input">
+				<input type="text" id="todo-input" placeholder="Add a new standard..." onkeydown="todoKeyevent(event)">
+					<button id="add-btn">Add</button>
+					<button id="lock-btn">Lock</button>
+				</div>
+				<div class="todo-list">
+					<ul id="todo-list" class="templateList">
+					</ul>
+				</div>
+			</div>
+		
+			<div class="grid-item model-box">
+				<h2>Mode Selection: </h2>
+				<div class="radio-container">
+					<label for="hid" class="hid" style="display: flex; align-items: center;">
+						<input type="radio" name="mode" id="hid" > <span>HID</span>
+					</label>
+					<label for="ssi" class="ssi" style="display: flex; align-items: center;">
+						<input type="radio" name="mode" id="ssi" checked> <span>SSI</span>
+					</label>
+				</div>
+				<div id="ssi-settings" class="active">
+					<div>
+						Port: <input type="text" id="name-input" >
+						<button id="start-btn">open</button>
+					</div>
+				</div>
+			</div>
+	
+		
+			<div class="grid-item label-box">
+				<h2>Label Test</h2>
+				<div>
+				<input type="text" id="label-input" placeholder="Add a new label..." onkeydown="labelKeyevent(event)">
+					<button id="export">export</button>
+					<button id="clear">clear</button>
+				</div>
+				<div class="todo-list">
+					<ul id="label-list" class="labelList"></ul>
+				</div>
+			</div>
+		
+	
+			<div class="grid-item label-info">
+				<div><span id="minInterval">Min Interval(ms)：</span></div>
+				<div><span id="Average">Average(s)：</span></div>
+				<div><span id="times">time/s：</span></div>
+				<div><span id="scanCount">Scan Count：</span></div>
+				<div><span id="correctCount">Correct Count：</span></div>
+				<div><span id="errorCount">Error Count：</span></div>
+				<div><span id="accuracyRate">Accuracy Rate：</span></div>
+				<div><span id="errorRate">Error Rate：</span></div>
+			</div>
+		</div>
+	
+		<script src="./components/labelComparison/labelComparison.js"></script>
+
+</div>

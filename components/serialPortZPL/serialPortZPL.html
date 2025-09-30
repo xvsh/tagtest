@@ -1,0 +1,36 @@
+<div>
+	<link rel="stylesheet" href="./components/srtialPortZPL/serialPortZPL.css">
+	<div class="card">
+		<div class="card-header bg-info">serialport to ZPL</div>
+		<div class="card-body">
+			<div class="row">
+				<div class="col">
+					<div class="input-group mb-3">
+						<input type="file" class="form-control" onchange="readFile(this)">
+					</div>
+				</div>
+				<div class="col">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="serial port" value="/dev/ttySUSB0">
+					</div>
+				</div>
+				<div class="col">
+					<button class="btn btn-secondary serial_status" onclick="serialStatusChange(this)">CLOSE</button>
+					<button class="btn btn-info" onclick="sendData()"><i class="bi bi-send"></i></button>
+					<button class="btn btn-warning" onclick="clearinp()"><i class="bi bi-trash"></i></button>
+				</div>
+			</div>
+			<div class="input-group mb-3">
+				<span class="input-group-text">文本内容</span>
+				<textarea class="form-control" cols="30" rows="6" placeholder="文本内容" readonly></textarea>
+				<!-- <input type="text" class="form-control"> -->
+			</div>
+			<div class="input-group mb-3">
+				<span class="input-group-text">消息回馈</span>
+				<textarea class="form-control" cols="30" rows="4" placeholder="消息回馈" readonly></textarea>
+				<!-- <input type="text" class="form-control"> -->
+			</div>
+		</div>
+	</div>
+	<script src="./components/serialPortZPL/serialPortZPL.js"></script>
+</div>
