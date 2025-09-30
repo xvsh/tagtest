@@ -274,7 +274,10 @@ function calculatingFunction() {
 		Average = (scanCount / minInterval).toFixed(4);
 	} else {
 		let current = new Date();
-		minInterval = current - prevDate;
+		let curr = current - prevDate;
+		if (minInterval > curr) {
+			minInterval = curr;
+		}
 		prevDate = current;
 		Average = (scanCount / (current - firstDate)).toFixed(4);
 	}
